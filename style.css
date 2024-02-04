@@ -211,9 +211,20 @@ td{
         gap : 10px;
     }
     .hero{
-        display: none;
+        display: none !important;
     }
     .collection-container{
-        overflow: scroll;
+        white-space: nowrap;
+    }
+    .my-list{
+        width: 85%;
+        margin: auto;
+        overflow-x: scroll;
+    }
+    .collection-container{
+        white-space: nowrap !important;
+    }
+    .product{
+        display: inline-block;
     }
 }
